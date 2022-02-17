@@ -9,7 +9,8 @@ import { ITrack } from "../../types/track"
 const Index = () => {
     const router = useRouter()
     const tracks: ITrack[] = [
-        {_id: '1', name: 'track 1', artist: 'исполнитель 1', text: 'something text', listens: 5, audio: 'http://localhost:5000/audio/3495.mp3', picture: 'http://localhost:5000/image/avat.jpg', comments: []}
+        {_id: '1', name: 'track 1', artist: 'исполнитель 1', text: 'something text', listens: 5, audio: 'http://localhost:5000/audio/3495.mp3', picture: 'http://localhost:5000/image/avat.jpg', comments: []},
+        {_id: '2', name: 'track 2', artist: 'исполнитель 2', text: 'something text', listens: 5, audio: 'http://localhost:5000/audio/3495.mp3', picture: 'http://localhost:5000/image/avat.jpg', comments: []}
     ]
     return (
         <MainLayout>
